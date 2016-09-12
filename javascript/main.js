@@ -5,7 +5,7 @@ $("nav li a").click(function(){
     $(this).parent().addClass("active").siblings().removeClass("active");
 })
 $("nav li:nth-child(1)").click(function(){
-    $("#home").removeClass("hidden1").siblings().addClass("hidden1");
+    $("#menu").removeClass("hidden1").siblings().addClass("hidden1");
     
 });
     $("nav li:nth-child(2)").click(function(){
@@ -14,7 +14,7 @@ $("nav li:nth-child(1)").click(function(){
 });
     
     $("nav li:nth-child(3)").click(function(){
-    $("#menu").removeClass("hidden1").siblings().addClass("hidden1");
+    $("#home").removeClass("hidden1").siblings().addClass("hidden1");
        
     
 });
